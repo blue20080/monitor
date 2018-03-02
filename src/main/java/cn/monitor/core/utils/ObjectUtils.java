@@ -96,10 +96,10 @@ public final class ObjectUtils extends org.apache.commons.lang3.ObjectUtils {
 	public static void main(String[] args) {
 		User testOne = new User();
 		testOne.setId("one");
-		testOne.setEmail("502079461@qq.com");
+		testOne.setEmail("1@qq.com");
 		User testTwo = new User();
 		testTwo.setId("one");
-		testTwo.setEmail("502079161@qq.com");
+		testTwo.setEmail("1@qq.com");
 		String[] fields = { "id", "email" };
 		if (isEquals(testOne, testTwo, fields)) {
 			System.out.println("相等");
